@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  font-size: 20px;
+}
+
+.delete-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.input-place{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.add-btn{
+  height: 30px;
+  background-color: darkgoldenrod;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.bg-salmon{
+  text-decoration: line-through;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.check-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
