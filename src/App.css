@@ -1,10 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(24, 2, 2);
+}
+
 .App {
   text-align: center;
+  padding-top: 30px;
+}
+
+.InpBtn{
+  margin-top: 50px;
+}
+
+h1{
+  color: #dac4c5;
 }
 
 ul{
   list-style: none;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .delete-button{
@@ -15,20 +39,35 @@ ul{
 }
 
 .input-place{
-  width: 400px;
-  height: 30px;
+  width: 600px;
+  height: 50px;
   border-radius: 5px;
   padding: 10px;
   box-sizing: border-box;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 20px;
+  background-color: #1f0c0c;
+  border-color:#ff9a9e
+}
+
+input::placeholder {
+  color: #dac4c5;
 }
 
 .add-btn{
-  height: 30px;
-  background-color: darkgoldenrod;
-  color: white;
+  height: 50px;
+  background-color: transparent;
+  color: #dac4c5;
   border: 1px solid black;
   border-radius: 5px;
   width: 60px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  cursor: pointer;
+  border-color:#ff9a9e;
+  border-left-color: transparent;
 }
 
 .bg-salmon{
@@ -39,9 +78,21 @@ ul{
   text-decoration: line-through;
 }
 
-.check-button{
+.check-button, .edit-button{
   background-color: transparent;
   border: none;
   cursor: pointer;
   margin: auto;
+}
+
+li{
+  background: linear-gradient(to right, #ff9a9e, #fcb045);
+  width: 660px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-left:  30px;
+  height: 3rem;
+  align-items: center;
 }
