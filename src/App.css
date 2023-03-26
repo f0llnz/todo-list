@@ -49,7 +49,8 @@ ul{
   border-bottom-right-radius: 0;
   margin-bottom: 20px;
   background-color: #1f0c0c;
-  border-color:#ff9a9e
+  border-color:#ff9a9e;
+  color:#dac4c5 ;
 }
 
 input::placeholder {
